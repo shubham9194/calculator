@@ -1,0 +1,105 @@
+.TextAlignCenter{
+    text-align: center;
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    
+    
+}
+.CalPro{
+       width: 65px;
+    height: 80px;
+    border: 1px solid gray;
+    margin: 50px;
+    width: 240px;
+    height: 380px;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkgray;
+    padding: 10px;
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+        box-shadow: 2px 1px 4px 3px
+    
+}
+.Screen{
+  margin: 40px 0px 20px 0px;
+    height: 70px;
+    text-align: left;
+    border-radius: 12px;
+    background-color: darkseagreen;;
+    width: 99%;
+    -moz-box-shadow: inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px darkorchid;
+    position: relative;  
+}
+.Butt{
+   margin: 5px;
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: wheat;
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 1px 1px 2px 1px;
+    cursor: pointer;
+}
+ 
+.ButtAlign{
+    display: inline-flex;
+}
+
+.Out{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    word-break: break-word;
+    padding: 5px;
+    text-align-last: end;
+}
+
+.blinking-cursor {
+  display: inline-block;
+  background: #111;
+  margin-left: 1px;
+
+  -webkit-animation: blink 2s linear 0s infinite;
+  -moz-animation: blink 2s linear 0s infinite;
+  -ms-animation: blink 2s linear 0s infinite;
+  -o-animation: blink 2s linear 0s infinite;
+  
+}
+@-webkit-keyframes blink {
+  0%   { background: #0a0 }
+  47%  { background: #090 }
+  50%  { background: #000 }
+  97%  { background: #000 }
+  100% { background: #090 }
+}
+
+@-moz-keyframes blink {
+  0%   { background: #0a0 }
+  47%  { background: #090 }
+  50%  { background: #000 }
+  97%  { background: #000 }
+  100% { background: #090 }
+}
+
+@-ms-keyframes blink {
+  0%   { background: #0a0 }
+  47%  { background: #090 }
+  50%  { background: #000 }
+  97%  { background: #000 }
+  100% { background: #090 }
+}
+
+@-o-keyframes blink {
+  0%   { background: #0a0 }
+  47%  { background: #090 }
+  50%  { background: #000 }
+  97%  { background: #000 }
+  100% { background: #090 }
+}
